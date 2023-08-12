@@ -1,8 +1,13 @@
-.profile{
-background-color: aquamarine;
-justify-content: center;
+.profile {
+    background-color: aquamarine;
+    justify-content: center;
 }
-h1{
-top: auto;
-text-align: center;
+
+h1 {
+    top: auto;
+    text-align: center;
+}
+
+body {
+    text-align: justify;
 }
