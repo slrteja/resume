@@ -14,12 +14,16 @@ body {
 }
 html{
     background-color: #C4DFDF;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #main{
     background-color: #D2E9E9;
 }
 #body{
     background-color: #E3F4F4;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 footer{
     background-color: #D2E9E9;
