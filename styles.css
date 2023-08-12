@@ -1,6 +1,5 @@
 .profile {
     background-color: aquamarine;
-    justify-content: center;
 }
 
 h1 {
@@ -10,6 +9,18 @@ h1 {
 
 body {
     text-align: justify;
-    background-color: rgb(206, 231, 214);
-
+    /* background-color: rgb(206, 231, 214); */
+    font-family: 'Source Code Pro', monospace;
+}
+html{
+    background-color: #C4DFDF;
+}
+#main{
+    background-color: #D2E9E9;
+}
+#body{
+    background-color: #E3F4F4;
+}
+footer{
+    background-color: #D2E9E9;
 }
