@@ -12,17 +12,20 @@ body {
     /* background-color: rgb(206, 231, 214); */
     font-family: 'Source Code Pro', monospace;
 }
-html{
+
+html {
     background-color: #C4DFDF;
     margin-left: 10px;
     margin-right: 10px;
 }
-#main{
+
+#main {
     background-color: #D2E9E9;
 }
-#body{
+
+#body {
     background-color: #E3F4F4;
-    
+
     padding-left: 25px;
     padding-right: 25px;
     margin-bottom: 15px;
@@ -30,10 +33,12 @@ html{
     padding-top: 4px;
 
 }
-p{
+
+p {
     padding-left: 10px;
     padding-right: 25px;
 }
-footer{
+
+footer {
     background-color: #D2E9E9;
 }
