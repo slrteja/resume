@@ -9,7 +9,6 @@ h1 {
 
 body {
     text-align: justify;
-    /* background-color: rgb(206, 231, 214); */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -44,7 +43,6 @@ p {
 footer {
     background-color: #D2E9E9;
 }
-
 img {
     float: right;
     border-radius: 50%;
