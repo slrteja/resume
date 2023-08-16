@@ -2,7 +2,7 @@ html {
     background-color: #C4DFDF;
     text-align: justify;
 
-    margin: 0;
+    margin: 20px;
 
 
 }
@@ -89,18 +89,31 @@ p {
 footer {
     background-color: #D2E9E9;
 }
+
 @media (max-width: 768px) {
+
     /* Adjust font sizes */
-    h1, h2, p {
+    h1,
+    h2,
+    p {
         font-size: 18px;
     }
+
     /* Adjust margins and padding */
     .grid-container {
         margin: 0;
         padding: 0;
     }
-    .card-summary, .card-internship, .card-education, .card-skills, .card-projects, .card-certifications, .card-publications, .card-trainings {
+
+    .card-summary,
+    .card-internship,
+    .card-education,
+    .card-skills,
+    .card-projects,
+    .card-certifications,
+    .card-publications,
+    .card-trainings {
         grid-column: 1;
     }
-    
+
 }
