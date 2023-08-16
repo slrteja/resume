@@ -1,5 +1,14 @@
-.profile {
-    background-color: aquamarine;
+html {
+    background-color: #C4DFDF;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+body {
+    text-align: justify;
+    /* background-color: rgb(206, 231, 214); */
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -7,20 +16,40 @@ h1 {
     text-align: center;
 }
 
-body {
-    text-align: justify;
-    font-family: 'Open Sans', sans-serif;
+.flex-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
-html {
-    background-color: #C4DFDF;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: justify;
+#head-profile-image {
+    margin-right: 20px;
 }
 
-#main {
+#head-profile-image img {
+    border-radius: 30%;
+    height: 150px;
     background-color: #D2E9E9;
+    flex: 1;
+}
+
+#head-name {
+    margin-left: 20px;
+    font-size: large;
+    flex: 1;
+
+}
+
+.profile {
+    background-color: aquamarine;
+}
+
+
+#head {
+    background-color: #D2E9E9;
+
 }
 
 #body {
@@ -34,18 +63,26 @@ html {
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+}
+
+.card-summary {
+    grid-column: span 2;
+}
+
+.card-internship {
+    grid-row: span 2;
+
+}
+
 p {
-    padding-left: 10px;
-    padding-right: 25px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 footer {
     background-color: #D2E9E9;
-}
-img {
-    float: right;
-    border-radius: 50%;
-    margin-right: 10px;
-    justify-content: end;
 }
