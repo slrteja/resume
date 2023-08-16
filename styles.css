@@ -1,8 +1,10 @@
 html {
     background-color: #C4DFDF;
-    margin-left: 20px;
-    margin-right: 20px;
     text-align: justify;
+
+    margin: 0;
+
+
 }
 
 body {
@@ -68,6 +70,7 @@ h1 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     column-gap: 30px;
+    row-gap: 30px;
 }
 
 .card-summary {
@@ -80,9 +83,24 @@ h1 {
 }
 
 p {
-/*     font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 footer {
     background-color: #D2E9E9;
+}
+@media (max-width: 768px) {
+    /* Adjust font sizes */
+    h1, h2, p {
+        font-size: 18px;
+    }
+    /* Adjust margins and padding */
+    .grid-container {
+        margin: 0;
+        padding: 0;
+    }
+    .card-summary, .card-internship, .card-education, .card-skills, .card-projects, .card-certifications, .card-publications, .card-trainings {
+        grid-column: 1;
+    }
+    
 }
