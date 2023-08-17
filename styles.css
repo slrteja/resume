@@ -1,84 +1,129 @@
 html {
     background-color: #C4DFDF;
     text-align: justify;
+
     margin: 20px;
+
+
 }
-body {
+
+body p{
     text-align: justify;
     /* background-color: rgb(206, 231, 214); */
     font-family: 'Open Sans', sans-serif;
 }
+
 h1 {
     top: auto;
     text-align: center;
 }
-li{
-    font-size: medium;
-}
+
 .flex-head {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: n0wrap;
+
 }
+
 #head-profile-image {
     margin-right: 20px;
 }
+
+#head-name p {
+    align-items: center;
+    font-weight:400;
+    font-size: 15px;
+}
+
 #head-profile-image img {
     border-radius: 30%;
     height: 150px;
     background-color: #D2E9E9;
     flex: 1;
 }
+
+li {
+    font-size: medium;
+}
+
 #head-name {
     margin-left: 20px;
-    font-size: large;
+    font-size: larger;
     flex: 1;
+    align-items: center
 }
+
+#head {
+    font-size: larger;
+
+}
+
 .profile {
     background-color: aquamarine;
 }
+
+
 #head {
     background-color: #D2E9E9;
+
 }
-#body {
+
+body {
     background-color: #E3F4F4;
+
     padding-left: 25px;
     padding-right: 25px;
     margin-bottom: 15px;
     padding-bottom: 15px;
     padding-top: 4px;
+
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     column-gap: 30px;
-    row-gap: 30px;
+    row-gap: 10px;
 }
+
 .card-summary {
     grid-column: span 2;
 }
+
 .card-internship {
     grid-row: span 2;
+
 }
+
 p {
-    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-language-override: normal;
+    font-style: normal;
+    font-size: 16px;
 }
+
 footer {
     background-color: #D2E9E9;
+    text-align: center
 }
-@media (max-width: 508px) {
+
+@media (max-width: 480px) {
+
     /* Adjust font sizes */
-    h1{
-        font-size: 18px;
+    h1 {
+        font-size: 12px;
     }
-    h2{
-        font-size: 16px;
+
+    h2 {
+        font-size: 12px;
     }
-    li{
-        font-size: 14px;
+
+    li {
+        font-size: 12px;
     }
+
     p {
         font-size: 12px;
     }
@@ -88,6 +133,7 @@ footer {
         margin: 0;
         padding: 0;
     }
+
     .card-summary,
     .card-internship,
     .card-education,
@@ -98,10 +144,12 @@ footer {
     .card-trainings {
         grid-column: 1;
     }
-    img{
-        max-width: 100px;
-        max-height: 100px;
+
+    img {
+        max-width: 70px;
+        max-height: 70px;
     }
+
 }
 #navbar{
     padding-right: 20px;
