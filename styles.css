@@ -17,7 +17,9 @@ h1 {
     top: auto;
     text-align: center;
 }
-
+li{
+    font-size: medium;
+}
 .flex-head {
     display: flex;
     justify-content: space-around;
@@ -93,10 +95,17 @@ footer {
 @media (max-width: 768px) {
 
     /* Adjust font sizes */
-    h1,
-    h2,
-    p {
+    h1{
         font-size: 18px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    li{
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
     }
 
     /* Adjust margins and padding */
@@ -114,6 +123,10 @@ footer {
     .card-publications,
     .card-trainings {
         grid-column: 1;
+    }
+    img{
+        max-width: 100px;
+        max-height: 100px;
     }
 
 }
